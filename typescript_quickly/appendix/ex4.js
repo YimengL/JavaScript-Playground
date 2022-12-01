@@ -16,4 +16,4 @@ function currencyAdjustment(stringParts, region, amount) {
 const amount = 100;
 const region = 2; // Europe: 2, USA: 1
 const message = currencyAdjustment`You've earned ${region} ${amount}!`
-console.log(message)
+console.log(message);
